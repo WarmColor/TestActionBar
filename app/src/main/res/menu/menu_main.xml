@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.warmcolor.blog.testactionbar.MainActivity">
+    <item
+        android:id="@+id/first_button"
+        android:title="@string/first_button"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/second_button"
+        android:title="@string/second_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/third_button"
+        android:title="@string/third_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/forth_button"
+        android:title="@string/forth_button"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+</menu>
